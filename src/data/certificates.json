@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Programação em JavaScript do Básico ao Avançado",
+        "img": "./img/certificado_js_udemy.jpg",
+        "hours": "27",
+        "institution": "Udemy",
+        "year": "2022"
+    },
+    {
+        "name": "Python para Análise de Dados I",
+        "img": "./img/certificado_puc_datascience.jpg",
+        "hours": "36",
+        "institution": "PUC",
+        "year": "2022"
+    },
+    {
+        "name": "Git e GitHub Essencial para o Desenvolvedor",
+        "img": "./img/certificado_git.jpg",
+        "hours": "12",
+        "institution": "Udemy",
+        "year": "2022"
+    },
+    {
+        "name": "Python Basics",
+        "img": "./img/certificado_python_lets.jpg",
+        "hours": "10",
+        "institution": "Let's Code",
+        "year": "2021"
+    },
+    {
+        "name": "Programação em Python do Básico ao Avançado",
+        "img": "./img/certificado_python_geek.jpg",
+        "hours": "63,5",
+        "institution": "Udemy",
+        "year": "2021"
+    },
+    {
+        "name": "Bioinformática Aplicada ao Estudo de Bactérias Multirresistentes",
+        "img": "./img/certificado_ppgmpa.jpg",
+        "hours": "1",
+        "institution": "PPGMPA",
+        "year": "2021"
+    },
+    {
+        "name": "Data Science: Visualização de Dados com Python",
+        "img": "./img/certificado_datascience_python.jpg",
+        "hours": "2",
+        "institution": "Udemy",
+        "year": "2021"
+    },
+    {
+        "name": "Blast: Ferramenta de Alinhamentos Locais de Sequências",
+        "img": "./img/certificado_blast.jpg",
+        "hours": "2",
+        "institution": "Udemy",
+        "year": "2021"
+    },
+    {
+        "name": "Workshop de Python para Dados Biológicos",
+        "img": "./img/certificado_workshop_py.jpg",
+        "hours": "33",
+        "institution": "FEALQ",
+        "year": "2020"
+    },
+    {
+        "name": "Introdução ao Python",
+        "img": "./img/certificado_python.jpg",
+        "hours": "2",
+        "institution": "Udemy",
+        "year": "2020"
+    },
+    {
+        "name": "IV Encontro Carioca de Biomedicina",
+        "img": "./img/certificado_ecbm.jpg",
+        "hours": "30",
+        "institution": "Conselho Federal de Biomedicina",
+        "year": "2020"
+    },
+    {
+        "name": "Curso de Programação com Perl para Bioinformática",
+        "img": "./img/certificado_perl.jpg",
+        "hours": "2,5",
+        "institution": "Udemy",
+        "year": "2020"
+    },
+    {
+        "name": "Introdução ao Sistema Operacional Linux",
+        "img": "./img/certificado_linux.jpg",
+        "hours": "2",
+        "institution": "Udemy",
+        "year": "2019"
+    },
+    {
+        "name": "Terminal Linux",
+        "img": "./img/certificado_terminal_linux.jpg",
+        "hours": "1",
+        "institution": "Udemy",
+        "year": "2019"
+    },
+    {
+        "name": "Malária na Atenção Básica à Saúde",
+        "img": "./img/certificado_malaria.jpg",
+        "hours": "60",
+        "institution": "UNA-SUS",
+        "year": "2018"
+    },
+    {
+        "name": "1º Workshop de Resistência Bacteriana aos Antimicrobiyears",
+        "img": "./img/certificado_res_bac.jpg",
+        "hours": "8",
+        "institution": "UFF",
+        "year": "2017"
+    },
+    {
+        "name": "XXII Semana de Microbiologia e Imunologia",
+        "img": "./img/certificado_micro_imuno.jpg",
+        "hours": "40",
+        "institution": "UFRJ",
+        "year": "2016"
+    }
+]
