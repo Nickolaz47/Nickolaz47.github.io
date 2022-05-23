@@ -33,7 +33,7 @@ const Home = () => {
                   mestrado em Biologia Computacional e Sistemas no Instituto Oswaldo Cruz. Ao longo de 2 anos desenvolvi
                   meu projeto no genoma de <em>Rhodnius prolixus</em>, um vetor da doença de Chagas, onde o foco principal
                   era a predição gênica da montagem Hi-C como também a conciliação com dados anteriores. No início de 
-                  2022 concluí o meu mestrado e parte do meu trabalho se encontra disponível na
+                  2022 concluí o meu mestrado e parte do meu trabalho se encontra disponível na 
                   <a href="http://www.bioinfo.iq.ufrj.br/genomes" target="_blank" style={{color: 'white'}}>internet,</a> 
                   porém optei por não continuar a minha carreira acadêmica e buscar uma experiência no mercado de trabalho.
               </p>

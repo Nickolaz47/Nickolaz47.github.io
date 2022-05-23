@@ -45,6 +45,7 @@ function App() {
         {name: 'Word', level: 60},
         {name: 'Excel', level: 60},
         {name: 'PowerPoint', level: 60},
+        {name: 'PostgreSQL', level: 40},
         {name: 'Machine Learning', level: 40},
     ]
 
