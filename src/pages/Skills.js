@@ -29,7 +29,7 @@ const Skills = () => {
   ];
 
   return (
-    <>
+    <Container id="skills" as="section" className="p-3">
       <Container id="soft-skills" as="section">
         <h3>Soft Skills</h3>
         <Row id="skill-items">
@@ -46,7 +46,7 @@ const Skills = () => {
           ))}
         </Row>
       </Container>
-    </>
+    </Container>
   );
 };
 

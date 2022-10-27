@@ -6,7 +6,7 @@ import certificates from "../data/certificates.json";
 
 const Certificates = () => {
   return (
-    <Container id="certificates" as="section">
+    <Container id="certificates" as="section" className="p-3">
       <Row>
         {certificates.map(({ name, img, hours, institution, year }, idx) => (
           <CertificateCard

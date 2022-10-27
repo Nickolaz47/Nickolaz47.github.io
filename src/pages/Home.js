@@ -1,17 +1,19 @@
+import { Container, Row } from "react-bootstrap";
+
 const Home = () => {
   return (
-    <>
-      <section id="objetivo" className="container">
-        <div id="descricao-objetivo" className="row">
+    <Container id="home" as="section" className="p-3">
+      <Container id="objetivo" as="section">
+        <Row id="descricao-objetivo">
           <h3>Objetivo</h3>
           <p className="text-justify">
             Espero ter a oportunidade de assumir a posição de bioinformata como
             também de desenvolvedor de aplicações.
           </p>
-        </div>
-      </section>
-      <section id="background" className="container">
-        <div id="graduacao" className="row">
+        </Row>
+      </Container>
+      <Container id="background" as="section">
+        <Row id="graduacao">
           <h3>Graduação</h3>
           <p className="text-justify">
             Eu comecei minha jornada profissional em 2015 quando ingressei no
@@ -24,8 +26,8 @@ const Home = () => {
             em hematologia em 2018, obtendo o título de bacharel em Biomedicina
             com habilitação em Análises Clínicas.
           </p>
-        </div>
-        <div id="mestrado" className="row">
+        </Row>
+        <Row id="mestrado">
           <h3>Mestrado</h3>
           <p className="text-justify">
             Ao final da minha graduação, decidi optar por seguir a minha vontade
@@ -41,8 +43,8 @@ const Home = () => {
             <em>Rhodnius prolixus</em>, um vetor da doença de Chagas, onde o
             foco principal era a predição gênica da montagem Hi-C como também a
             conciliação com dados anteriores. No início de 2022 concluí o meu
-            mestrado e parte do meu trabalho se encontra disponível na
-            <a
+            mestrado e parte do meu trabalho se encontra disponível na{" "} 
+             <a
               href="http://www.bioinfo.iq.ufrj.br/genomes"
               target="_blank"
               style={{ color: "white" }}
@@ -50,11 +52,11 @@ const Home = () => {
             >
               internet,
             </a>
-            porém optei por não continuar a minha carreira acadêmica e buscar
+            {" "}porém optei por não continuar a minha carreira acadêmica e buscar
             uma experiência no mercado de trabalho.
           </p>
-        </div>
-        <div id="formacao-complementar" className="row">
+        </Row>
+        <Row id="formacao-complementar">
           <h3>Formação Complementar</h3>
           <p className="text-justify">
             Inicialmente programar era apenas uma etapa do meu mestrado para me
@@ -71,9 +73,9 @@ const Home = () => {
             estou aprendendo sobre HTML, CSS, JavaScript e React para me tornar
             um profissional mais capacitado dentro da área de tecnologia.
           </p>
-        </div>
-      </section>
-    </>
+        </Row>
+      </Container>
+    </Container>
   );
 };
 

@@ -37,7 +37,7 @@ const NavMenu = () => {
     <>
       <Container id="personal-details" as="section">
         <Row>
-          <div id="main-header">
+          <div id="main-header" className="mt-2">
             <h2>Nicolas da Matta Freire Araujo</h2>
             <Carousel interval={3000} controls={false} indicators={false}>
               {professions.map((prof, idx) => (

@@ -13,18 +13,16 @@ function App() {
   const Certificates = lazy(() => import("./pages/Certificates"));
 
   return (
-    <div className="App">
-      <BrowserRouter>
-        <NavMenu />
-        <Suspense fallback={<Loading />}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/certificates" element={<Certificates />} />
-          </Routes>
-        </Suspense>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <NavMenu />
+      <Suspense fallback={<Loading />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/certificates" element={<Certificates />} />
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
   );
 }
 
