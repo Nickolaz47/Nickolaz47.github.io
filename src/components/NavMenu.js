@@ -29,6 +29,7 @@ const NavMenu = () => {
 
   const navLinks = [
     { name: "Home", link: "/" },
+    { name: "Experiências", link: "/experiences" },
     { name: "Habilidades", link: "/skills" },
     { name: "Certificados", link: "/certificates" },
   ];
