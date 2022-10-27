@@ -22,7 +22,7 @@ const SkillBar = ({ skill }) => {
 
   return (
     <Col md={6}>
-      <h5>{skill.name}</h5>
+      <h5 className="my-1">{skill.name}</h5>
       <div className="progress">
         <div
           className={barColor}

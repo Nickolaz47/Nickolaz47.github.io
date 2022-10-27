@@ -6,26 +6,31 @@ import SkillItem from "../components/SkillItem";
 const Skills = () => {
   const softSkills = [
     "Resolução de problemas",
-    "Proatividade",
-    "Controle emocional",
     "Adaptabilidade",
-    "Capacidade de trabalhar sobre pressão",
     "Organização",
+    "Proatividade",
+    "Capacidade de trabalhar sobre pressão",
     "Trabalho em equipe",
+    "Controle emocional",
   ];
 
   const hardSkills = [
+    { name: "Linux", level: 60 },
+    { name: "Genômica", level: 80 },
     { name: "Python", level: 80 },
-    { name: "HTML", level: 60 },
+    { name: "Machine Learning", level: 40 },
+    { name: "HTML", level: 80 },
     { name: "CSS", level: 60 },
-    { name: "JavaScript", level: 60 },
-    { name: "BootStrap", level: 60 },
-    { name: "React", level: 60 },
+    { name: "BootStrap", level: 80 },
+    { name: "JavaScript", level: 80 },
+    { name: "React", level: 80 },
+    { name: "NodeJS", level: 60 },
+    { name: "Git", level: 60 },
+    { name: "GitHub", level: 60 },
+    { name: "PostgreSQL", level: 40 },
     { name: "Word", level: 60 },
     { name: "Excel", level: 60 },
     { name: "PowerPoint", level: 60 },
-    { name: "PostgreSQL", level: 40 },
-    { name: "Machine Learning", level: 40 },
   ];
 
   return (

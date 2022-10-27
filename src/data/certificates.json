@@ -1,5 +1,26 @@
 [
   {
+    "name": "Visual Studio Code: Produtividade Absoluta",
+    "img": "./img/cert_vscode.jpg",
+    "hours": "4,5",
+    "institution": "Udemy",
+    "year": "2022"
+  },
+  {
+    "name": "React do Zero a Maestria",
+    "img": "./img/cert_react.jpg",
+    "hours": "28,5",
+    "institution": "Udemy",
+    "year": "2022"
+  },
+  {
+    "name": "Trilha Web Full Stack",
+    "img": "./img/cert_full_stack.jpg",
+    "hours": "400",
+    "institution": "Let's Code from Ada",
+    "year": "2022"
+  },
+  {
     "name": "Programação em JavaScript do Básico ao Avançado",
     "img": "./img/certificado_js_udemy.jpg",
     "hours": "27",
@@ -24,7 +45,7 @@
     "name": "Python Basics",
     "img": "./img/certificado_python_lets.jpg",
     "hours": "10",
-    "institution": "Let's Code",
+    "institution": "Let's Code from Ada",
     "year": "2021"
   },
   {
