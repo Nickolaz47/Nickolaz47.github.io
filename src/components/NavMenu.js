@@ -1,8 +1,38 @@
+// Components
 import { Container, Row, Col, Carousel, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+// Icons
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+// CSS
 import "./NavMenu.css";
 
-const NavMenu = ({ navLinks, professions, socialMediaLinks }) => {
+const NavMenu = () => {
+  const professions = [
+    "Biomédico",
+    "Bioinformata",
+    "Desenvolvedor Python",
+    "Desenvolvedor JavaScript",
+    "Desenvolvedor Web Full Stack",
+  ];
+
+  const socialMediaLinks = [
+    {
+      icon: <FaWhatsapp size={28} />,
+      link: "https://api.whatsapp.com/send?phone=5521981231412",
+    },
+    {
+      icon: <FaLinkedin size={28} />,
+      link: "https://www.linkedin.com/in/nicolas-da-matta-4b948b141/",
+    },
+    { icon: <FaGithub size={28} />, link: "https://github.com/Nickolaz47" },
+  ];
+
+  const navLinks = [
+    { name: "Home", link: "/" },
+    { name: "Habilidades", link: "/skills" },
+    { name: "Certificados", link: "/certificates" },
+  ];
+
   return (
     <>
       <Container id="personal-details" as="section">

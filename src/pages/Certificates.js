@@ -1,7 +1,10 @@
+// Components
 import { Container, Row } from "react-bootstrap";
 import CertificateCard from "../components/CertificateCard";
+// Data
+import certificates from "../data/certificates.json";
 
-const Certificates = ({ certificates }) => {
+const Certificates = () => {
   return (
     <Container id="certificates" as="section">
       <Row>
