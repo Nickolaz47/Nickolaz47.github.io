@@ -1,11 +1,7 @@
-import {Col} from 'react-bootstrap'
+import { Col } from "react-bootstrap";
 
-const SkillItem = ({skill}) => {
-    return (
-        <Col md={4}>
-            {skill}
-        </Col>
-    )
-}
+const SkillItem = ({ skill }) => {
+  return <Col md={4}>{skill}</Col>;
+};
 
-export default SkillItem
+export default SkillItem;
