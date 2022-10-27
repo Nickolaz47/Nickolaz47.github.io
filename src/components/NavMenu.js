@@ -72,7 +72,7 @@ const NavMenu = () => {
         <ul className="nav nav-pills nav-fill">
           {navLinks.map(({ name, link }, idx) => (
             <Nav.Item as="li" key={idx}>
-              <NavLink key={Math.random()} className="nav-link" to={link}>
+              <NavLink key={Math.random()} className="nav-link" to={link} end>
                 {name}
               </NavLink>
             </Nav.Item>
