@@ -1,5 +1,5 @@
 // Components
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Experiences = () => {
   const calcTimeInMonths = (date1, date2) => {
@@ -35,41 +35,43 @@ const Experiences = () => {
 
   return (
     <Container id="experiências" as="section" className="p-3">
-      {experiences.map(
-        ({ role, company, companyLink, start, end, responsabilities }, idx) => (
-          <Row key={idx} className="m-1 border-top border-bottom">
-            <h3 className="mt-1">
-              <a
-                className="text-decoration-none text-light"
-                href={companyLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                role="button"
-              >
-                {company}
-              </a>
-            </h3>
-            <div className="my-2">
-              <p className="fs-4 text-muted">{role}</p>
-              <span className="fs-5">{`${convertDate(start)} - ${convertDate(
-                end
-              )} (${calcTimeInMonths(start, end)})`}</span>
-            </div>
-            <div>
-              <ul>
-                {responsabilities.map((responsability, idx) => (
-                  <li
-                    key={idx}
-                    className="fs-6"
-                  >
-                    {responsability};
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </Row>
-        )
-      )}
+      <Row className="justify-content-center align-items-center m-1">
+        {experiences.map(
+          (
+            { role, company, companyLink, start, end, responsabilities },
+            idx
+          ) => (
+            <Col key={idx} sm={8} className="border-top border-bottom">
+              <h3 className="mt-1">
+                <a
+                  className="text-decoration-none text-light"
+                  href={companyLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="button"
+                >
+                  {company}
+                </a>
+              </h3>
+              <div className="my-2">
+                <p className="fs-4 text-muted">{role}</p>
+                <span className="fs-5">{`${convertDate(start)} - ${convertDate(
+                  end
+                )} (${calcTimeInMonths(start, end)})`}</span>
+              </div>
+              <div>
+                <ul>
+                  {responsabilities.map((responsability, idx) => (
+                    <li key={idx} className="fs-6">
+                      {responsability};
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Col>
+          )
+        )}
+      </Row>
     </Container>
   );
 };

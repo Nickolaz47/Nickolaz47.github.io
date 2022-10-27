@@ -10,6 +10,15 @@ main {
   background-color: black;
   color: white;
   border: 2px solid lightgray;
+  min-width: 80vw;
+  max-width: 80vw;
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .text-justify {
