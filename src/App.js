@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import NavMenu from "./components/NavMenu";
+import Loading from "./components/Loading";
 // CSS
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,15 +17,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavMenu />
-        <Suspense fallback={"Loading"}>
+        <Suspense fallback={<Loading />}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route
-              path="/skills"
-              element={
-                <Skills />
-              }
-            />
+            <Route path="/skills" element={<Skills />} />
             <Route path="/certificates" element={<Certificates />} />
           </Routes>
         </Suspense>
