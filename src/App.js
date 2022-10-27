@@ -5,7 +5,6 @@ import NavMenu from "./components/NavMenu";
 import Loading from "./components/Loading";
 // CSS
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   // Pages
