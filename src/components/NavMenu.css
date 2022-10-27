@@ -28,15 +28,6 @@
   text-decoration: none;
 }
 
-.nav-link:hover {
-  color: darkcyan;
-  text-decoration: none;
-}
-
-.nav-pills .nav-link.active {
-  background-color: black;
-}
-
 #second-header a {
   text-decoration: none;
 }
